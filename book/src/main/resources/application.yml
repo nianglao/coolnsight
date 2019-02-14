@@ -1,10 +1,13 @@
+#设置服务注册中心
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8080/eureka/
+      defaultZone: http://localhost:8761/eureka/
     register-with-eureka: false
+#注册者名称
 spring:
   application:
     name: eureka
+#端口号
 server:
   port: 8761
