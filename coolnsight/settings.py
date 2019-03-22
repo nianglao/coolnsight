@@ -25,7 +25,7 @@ SECRET_KEY = 'c#q3p=9#o5a$l5t4!rzq&tjg)_1bhksmx*r&8$pnidyk#x8-$c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.coolnsight.com']
 
 
 # Application definition
