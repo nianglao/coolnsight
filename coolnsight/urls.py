@@ -22,4 +22,5 @@ urlpatterns = [
     path('', views.home, name='main'),
     path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
+    path('.well-known/acme-challenge/<str:file_name>', views.get_file)
 ]
